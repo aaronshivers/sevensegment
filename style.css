@@ -1,4 +1,13 @@
-#sevenSegmentCanvas {
+.container {
+  display: flexbox;
+  height: 100%;
+}
+
+#myCanvas {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	box-shadow: -2px -2px 4px, -4px -6px 10px 1px;
 	border-radius: 10px;
 }
